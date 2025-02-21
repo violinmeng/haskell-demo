@@ -49,7 +49,7 @@ library:
 executables:
   tcp-echo:
     main:                Main.hs
-    source-dirs:         app
+    source-dirs:         app/tcp-echo
     ghc-options:
     - -threaded
     - -rtsopts
@@ -58,7 +58,7 @@ executables:
     - haskell-demo
   hls:
     main:                Main.hs
-    source-dirs:         hls
+    source-dirs:         app/hls
     ghc-options:
     - -threaded
     - -rtsopts
